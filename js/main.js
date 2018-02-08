@@ -47,17 +47,18 @@ var numbers = [
 
 
 i = 0
-let sum = (numbers[i] + numbers[i]);
+var sum = [numbers[i] + numbers[i]];
+var output
 
 while (i < numbers.length) {
     if (numbers[sum] % 2 === 0) {
-        console.log(numbers[i] +  " + " + numbers[i] " = " + sum + "\n" + "This is an even number.");
+        output(numbers[i] +  " + " + numbers[i] " = " + sum + "\n" + "This is an even number.");
     } else {
-        console.log(numbers[i] +  " + " + numbers[i] " = " + sum + "\n" + "This is an odd number.");
+        output(numbers[i] +  " + " + numbers[i] " = " + sum + "\n" + "This is an odd number.");
     } 
 };
 
-alert(numbers);*/
+alert(output);*/
 
 
 
