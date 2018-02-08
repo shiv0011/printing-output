@@ -35,7 +35,7 @@ output_1 = "My name is " + first_name + " " + last_name + ". You can contact me 
 
 alert(output_1);
 
-//task 3
+/*//task 3
 
 var numbers = [
     Math.floor(Math.random() * (200 - 100) + 100), 
@@ -47,7 +47,7 @@ var numbers = [
 
 
 i = 0
-let sum = numbers[i] + numbers[i];
+let sum = (numbers[i] + numbers[i]);
 
 while (i < numbers.length) {
     if (numbers[sum] % 2 === 0) {
@@ -57,7 +57,7 @@ while (i < numbers.length) {
     } 
 };
 
-alert(numbers);
+alert(numbers);*/
 
 
 
